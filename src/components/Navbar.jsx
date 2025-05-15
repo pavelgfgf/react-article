@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
       <div className="container">
-        <Link className="navbar-brand" to="/">📚 Мои статьи</Link>
+        <Link className="navbar-brand" to="/">📚 СтатьяРу</Link>
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav ms-auto">
             {user ? (

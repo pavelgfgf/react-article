@@ -22,7 +22,6 @@ const AppRouter = () => {
           <Route path="/register" element={<Register />} />
         </Routes>
       </div>
-      <Footer />
     </>
       
   );
