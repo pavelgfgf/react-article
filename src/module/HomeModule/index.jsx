@@ -36,7 +36,7 @@ export default function HomeModule() {
                 </Link>
               </div>
               <button
-                className="btn btn-sm btn-outline-danger"
+                className="btn btn-sm btn-outline-danger mb-4"
                 onClick={() => handleDelete(article.id)}
               >
                 Удалить

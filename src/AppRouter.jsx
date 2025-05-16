@@ -12,8 +12,8 @@ const AppRouter = () => {
   return (
     <>
     <Navbar />
-    
-      <div className="p-4 max-w-3xl mx-auto">
+    <Footer/>
+      <div className="p-4 max-w-3xl mx-auto mb-5">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/write" element={<WritePage/>} />
